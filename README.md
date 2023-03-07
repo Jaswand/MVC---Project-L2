@@ -1,1 +1,3 @@
-# MVC---Project-L2
+MVC Project Restaurant Rocambolesque.
+
+-Jaswand, Mohammed, Mees, Tarik, Berkant.
