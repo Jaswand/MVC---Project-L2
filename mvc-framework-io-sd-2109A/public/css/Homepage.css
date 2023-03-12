@@ -28,7 +28,8 @@ img {
     right: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0.7;
+    opacity: 0.6;
+    float: right;
 }
 
 .centered {
@@ -39,40 +40,32 @@ img {
     color: black;
     font-size: 1rem;
 }
+ 
+.text-kwaliteit {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 1rem;
+}
 
-/* Buttons */
+.text-registreren {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 1rem;
+}
 
-.btn {
-  display: inline-block;
-  padding: 0.9rem 1.8rem;
-  font-size: 16px;
-  font-weight: 700;
-  color: white !important;
-  border: 3px solid #662406;
-  cursor: pointer;
+h1 {
   position: relative;
-  background-color: transparent;
-  text-decoration: none;
-  overflow: hidden;
-  z-index: 1;
-  font-family: inherit;
- }
- 
- .btn::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #662406;
-  transform: translateX(-100%);
-  transition: all .3s;
-  z-index: -1;
- }
- 
- .btn:hover::before {
-  transform: translateX(0);
+  right: auto;
+}
+
+
+
+ btn-registreren {
+    text-align: center;
  }
 
 /* Footer */
