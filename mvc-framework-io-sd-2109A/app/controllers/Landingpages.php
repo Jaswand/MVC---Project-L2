@@ -8,7 +8,6 @@ class Landingpages extends Controller
             'title' => 'Rocambolesque',
             'sayHello' => 'Hallo Allemaal'
         ];
-        $this->view('landingpages/index', $data);
+        $this->view('landingpages/menu', $data);
     }
 }
-?> 
