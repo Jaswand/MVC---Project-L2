@@ -27,7 +27,7 @@
                     <a href="#"><i class="ion-social-facebook"></i></a>
                     <a href="#"><i class="ion-social-instagram"></i></a>
                     <a href="#"><i class="ion-social-snapchat"></i></a>
-                    <a href="#"><i class="ion-social-discord"></i></a>
+                    <a href="#"><i class="ion-social-twitter"></i></a>
             </div>
         </div>
     </Footer>

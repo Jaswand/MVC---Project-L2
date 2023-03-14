@@ -21,8 +21,10 @@
 </div>
 
 <p class="text-registreren">U Kunt hier ook een account aanmaken</p>
-<a class="btn-r" href="#">Registreren</a>
-    
+
+<div class="container">
+    <a class="btn-r" href="#">Registreren</a>
+</div>
  
  
 <?php

@@ -54,7 +54,8 @@ img {
     font-weight: 600;
     color: #000000;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 h1 {
@@ -76,6 +77,7 @@ h1 {
 .footer {
   background-color: #662406;
   padding: 70px 0;
+  margin-top: 250px;
 }
 
 ul{
