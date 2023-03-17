@@ -18,7 +18,7 @@
                     <li><a href="#">Bestellingen</a></li>
                     <li><a href="#">Creditnota's</a></li>
                     <li><a href="#">Mijn notificaties</a></li>
-                    <li><a href="Reserveringsweergave">Waardebonnen  </a></li>
+                    <li><a href="#">Waardebonnen  </a></li>
                 </ul>
         </div>
             <div class="footer-col">

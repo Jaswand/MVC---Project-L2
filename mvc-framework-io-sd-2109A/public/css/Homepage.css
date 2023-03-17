@@ -16,6 +16,7 @@ body {
 }
 
 .bg-image {
+    position: relative;
     padding: 20rem;
     background-image: url(https://www.restaurantzuiver.nl/wp-content/uploads/2020/02/Restaurant-Zuiver-Amersfoort-16.jpg);
     background-repeat: no-repeat;
@@ -32,13 +33,16 @@ img {
     float: right;
 }
 
+.text-kwaliteit {
+    margin-top: auto;
+}
+
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
  
 .text-kwaliteit {

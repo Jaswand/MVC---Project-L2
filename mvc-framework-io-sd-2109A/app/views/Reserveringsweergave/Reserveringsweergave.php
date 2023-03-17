@@ -1,19 +1,25 @@
 <table>
-  <tr>
-    <th>Naam</th>
-    <th>Email</th>
-    <th>Aantal personen</th>
-    <th>Datum</th>
-    <th>Tijd</th>
-  </tr>
-  <?php foreach($reserveringen as $reservering): ?>
-  <tr>
-    <td><?php echo $reservering['naam'] ?></td>
-    <td><?php echo $reservering['email'] ?></td>
-    <td><?php echo $reservering['aantal_personen'] ?></td>
-    <td><?php echo $reservering['datum'] ?></td>
-    <td><?php echo $reservering['tijd'] ?></td>
-    <td><a href="reservering.php?id=<?php echo $reservering['id'] ?>">Details</a></td>
-  </tr>
-  <?php endforeach; ?>
+    <thead>
+        <tr>
+            <th>Reservation ID</th>
+            <th>Customer Name</th>
+            <th>Reservation Date</th>
+            <th>Number of Guests</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach ($reservations as $reservation): ?>
+        <tr>
+            <td><?php echo $reservation['id']; ?></td>
+            <td><?php echo $reservation['customer_name']; ?></td>
+            <td><?php echo $reservation['reservation_date']; ?></td>
+            <td><?php echo $reservation['number_of_guests']; ?></td>
+            <td>
+                <a href="index.php?action=update_reservation&id=<?php echo $reservation['id']; ?>">Update</a>
+                <a href="index.php?action=delete_reservation&id=<?php echo $reservation['id']; ?>">Delete</a>
+            </td>
+        </tr>
+        <?php endforeach; ?>
+    </tbody>
 </table>
