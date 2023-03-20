@@ -23,7 +23,7 @@ body {
     background-position: center;
 }
 
-img {
+.white-rectangle {
     position: absolute;
     right: 50%;
     left: 50%;
@@ -74,7 +74,7 @@ h1 {
   flex-wrap: wrap;
 }
 .footer {
-  background-color: #662406;
+  background-color: #40261D;
   padding: 70px 0;
 }
 
