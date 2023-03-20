@@ -1,5 +1,5 @@
 <?php
-
+require_once '../app/views/includes/Navbar.php';
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +20,7 @@
     <div class="centered">
         <h1 class="text-kwaliteit">Alleen Kwaliteit</h1>
         <a class="btn" href="#">Bekijk ons menu</a>
-        <a class="btn" href="#">Reserveer nu</a>
+        <a class="btn" href="<?= URLROOT; ?>/reserverings/index">Reserveer nu</a>
   </div>
 </div>
 
@@ -29,23 +29,15 @@
 <div class="container">
     <a class="btn-r" href="#">Registreren</a>
 </div>
+
+</body>
+</html>
+
  
  
 <?php
 require_once '../app/views/includes/footer.php';
 ?>
 
-<script>
-window.onscroll = function() {myFunction()};
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
 
   
