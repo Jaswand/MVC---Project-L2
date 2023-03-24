@@ -22,6 +22,8 @@ body {
     padding: 5px;
 }
 
+/*images */
+
 .bg-image {
     padding: 20rem;
     background-image: url(https://www.restaurantzuiver.nl/wp-content/uploads/2020/02/Restaurant-Zuiver-Amersfoort-16.jpg);
@@ -39,7 +41,6 @@ img {
 p {
     float: right;
 }
-
 
 /* Footer */
 .footer-dark {
@@ -147,7 +148,7 @@ p {
     height: 420px;
 }
 
-/* Images */
+/* Menu Images and Figcaption */
 .images {
     width: 1400px;
     height: 1000px;
@@ -155,42 +156,99 @@ p {
     padding-left: 4%;
 }
 
+#images:hover {
+    background-color: yellow;
+}
+
+figcaption {
+    color: black;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
 .appetizers {
     border-radius: 8px;
-    padding: 10px;
+    padding: 5px;
+    cursor: pointer;
 }
 
 .soups {
     border-radius: 8px;
-    padding: 10px;
+    padding: 5px;
+    cursor: pointer;
 }
 
 .main {
     border-radius: 8px;
-    padding: 10px;
+    padding: 5px;
+    cursor: pointer;
 }
 
 .drinks {
     border-radius: 8px;
-    padding: 10px;
+    padding: 5px;
+    cursor: pointer;
 }
-
 
 
 
 /* Navagation */
-.navbar {
-    overflow: hidden;
-    background-color: #662406;
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #40261D;
+    color: #fff;
+    padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    height: 70px;
 }
 
-.navbar a {
-    float: left;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+.logo img {
+    height: 10%;
+    width: 7.5%;
+    padding-right: 30px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links li a {
+    color: #fff;
     text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+ul {
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    justify-content: flex-end;
+}
+
+.vertical-line {
+    border-left: 2px solid #A6633C;
+}
+
+.horizontal-line {
+    border-bottom: 2px solid #A6633C;
+    height: 30px;
+    width: 56px;
+    display: flex;
+}
+
+.horizontal-login-line {
+    border-bottom: 2px solid #A6633C;
+    height: 30px;
+    width: 50px;
+    display: flex;
+}
+
+.nav-right {
+    text-align: right;
 }

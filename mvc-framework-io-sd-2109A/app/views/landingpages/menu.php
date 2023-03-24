@@ -10,19 +10,35 @@
 </head>
 
 <body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <img src="img/Rocambolesque-logo-DEF.png" alt="Logo">
+        </div>
+        <ul class="nav-links vertical-line">
+            <li class="horizontal-line"><a href="">Home</a></li>
+            <li class="horizontal-line"><a href="#">About</a></li>
+            <li class="horizontal-line"><a href="#">Contact</a></li>
+        </ul>
+        <ul class="nav-right">
+            <li class="horizontal-login-line"><a href="#">Login</a></li>
+        </ul>
+    </nav>
+
     <div class="title">
         <h3>Rocambolesque Menu</h3>
     </div>
     <hr>
+
     <ul class="list-unstyled list-inline text-center">
         <div class="images">
-            <img src="/img/appetizers.png" alt="appetizers" class="appetizers">
+            <img src="/img/appetizers.png" alt="appetizers" class="appetizers" id="images" onclick="window.location.href='https://w3docs.com';">
             <figcaption>Appetizers</figcaption>
-            <img src="/img/soups.png" alt="soups" class="soups">
+            <img src="/img/soups.png" alt="soups" class="soups" id="images" onclick="window.location.href='https://w3docs.com';">
             <figcaption>Soups</figcaption>
-            <img src="/img/main.png" alt="main" class="main">
+            <img src="/img/main.png" alt="main" class="main" id="images" onclick="window.location.href='https://w3docs.com';">
             <figcaption>Main Course</figcaption>
-            <img src="/img/drinks.png" alt="drinks" class="drinks">
+            <img src="/img/drinks.png" alt="drinks" class="drinks" id="images" onclick="window.location.href='https://w3docs.com';">
             <figcaption>Drinks</figcaption>
         </div>
     </ul>
