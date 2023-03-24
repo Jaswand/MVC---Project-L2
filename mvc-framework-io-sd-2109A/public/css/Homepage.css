@@ -24,7 +24,7 @@ body {
     background-position: center;
 }
 
-img {
+.white-rectangle {
     position: absolute;
     right: 50%;
     left: 50%;
